@@ -156,11 +156,21 @@ letter-spacing: 0.18em;
 }
 
 /* --------------RESPONSIVE-------------- */
+
+@media screen and (min-width:375px ) {
+    .footer-container {
+        max-width: 343px;
+        margin: 0 auto;
+    }
+}
+
  
 @media screen and (min-width:768px ) {
     .footer-container {
-        max-width: 1439px;
+        max-width: 768px;
         padding: 36px 32px 36px 32px;
+        margin: 0 auto;
+        position: relative;
     }
 
     /* ------------------LOGO-AND-SOCIAL ICON---------------- */
@@ -174,8 +184,8 @@ letter-spacing: 0.18em;
     .footer-menu {
         display: inline-flex;
         position: absolute;
-        top:44px;
-        right: 30%;
+        top: 36px;
+        right: 250px;
         margin-bottom: 0px;
     }
     
@@ -223,19 +233,23 @@ letter-spacing: 0.18em;
 
 @media screen and (min-width:1440px ) {
     .footer-container {
-        max-width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+
     }
 
 /* ------------------LOGO-AND-SOCIAL ICON---------------- */
 .footer-svg {
-    margin-bottom: 27px;
+    margin-bottom: 39px;
 }
 
 
 /* ------------------FOOTER MENU---------------- */
 
 .footer-menu {
-    right: 36%;
+    left: 396px;
+    top: 36px;
 }
 
 .footer-menu-list {
@@ -254,8 +268,8 @@ letter-spacing: 0.18em;
 .footer-contacts-number {
     max-width: 350px;
     position: absolute;
-    top: 90px;
-    right: 45%;
+    top: 103px;
+    left: 396px;
     margin-bottom: 0;
     
 }
